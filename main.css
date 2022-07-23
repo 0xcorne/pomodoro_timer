@@ -1,0 +1,98 @@
+/* 
+Created with passion by Corné Adema / 0xcorne
+GitHub: https://github.com/0xcorne
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    margin: 0;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    height: 100vh; 
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: top;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 25rem;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+#work_text {
+    margin-top: 20rem;
+    font-size: 2rem;
+}
+
+#break_text {
+    margin-top: 20rem;
+    font-size: 2rem;
+    display: none;
+}
+
+.timer-box {
+    margin-top: -20rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.timer-box h2 {
+    font-size: 8rem;
+}
+
+.minutes {
+   margin-right: 6rem;
+}
+
+.timer-box span {
+    font-size: 2rem;
+}
+
+.p-r-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+.play button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0rem 1.5rem;
+}
+
+.play button:hover {
+    animation: shake 1s;
+}
+
+.reload button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0rem 1.5rem;
+}
+
+.reload button:hover {
+    animation: shake 1s;
+}
+
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(15deg); }
+    50% { transform: rotate(0eg); }
+    75% { transform: rotate(-15deg); }
+    100% { transform: rotate(0deg); }
+  }
