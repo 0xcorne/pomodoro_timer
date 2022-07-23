@@ -19,7 +19,7 @@ body {
 }
 
 h2 {
-    margin-top: 25rem;
+    margin-top: 28rem;
 }
 
 .container2 {
@@ -30,14 +30,8 @@ h2 {
 }
 
 #work_text {
-    margin-top: 20rem;
+    margin-top: 5rem;
     font-size: 2rem;
-}
-
-#break_text {
-    margin-top: 20rem;
-    font-size: 2rem;
-    display: none;
 }
 
 .timer-box {
@@ -86,6 +80,17 @@ h2 {
 
 .reload button:hover {
     animation: shake 1s;
+}
+
+@media (min-width: 1000px) {
+    h2 {
+        margin-top: 25rem;
+    }
+
+    #work_text {
+        margin-top: 20rem;
+    }
+    
 }
 
 
